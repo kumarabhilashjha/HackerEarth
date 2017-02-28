@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+int a,check=1;
+while(check!=0)
+{
+scanf("%d",&a);
+if(a!=42)
+printf("%d\n",a);
+else
+check=0;
+}
+return 0;
+}
